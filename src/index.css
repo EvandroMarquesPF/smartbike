@@ -31,7 +31,9 @@
 }
 
 @media (max-width: 1024px) {
-  font-size: 16px;
+  :root {
+    font-size: 16px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,7 +53,7 @@
     --glass-border: rgba(255, 255, 255, 0.1);
     --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   }
-
+  
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
